@@ -271,7 +271,9 @@
     <Content Include="Scripts\npm.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\todoControllers.js" />
     <Content Include="Scripts\todoModule.js" />
+    <Content Include="Scripts\todoServices.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -35,7 +35,10 @@ namespace AngularTodo
             bundles.Add(new ScriptBundle("~/bundles/angular-ui-bootstrap")
                 .IncludeDirectory("~/Scripts/angular-ui/", "*.js"));
 
-            bundles.Add(new ScriptBundle("~/bundles/todo").Include("~/Scripts/todoModule.js"));
+            bundles.Add(new ScriptBundle("~/bundles/todo")
+                .Include("~/Scripts/todoModule.js")
+                .Include("~/Scripts/todoControllers.js")
+                .Include("~/Scripts/todoServices.js"));
 
         }
     }
